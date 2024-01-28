@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Will estilos</title>
 </head>
@@ -23,43 +24,62 @@
     <aside class="menu-aside">
         <div class="perfil">
             <div class="infos-perfil">
-                
+                <i class="fa fa-user-circle" aria-hidden="true"></i>
             </div>
+            <h4>Fabio</h4>
         </div>
         <ul class="items-menu">
             <a href="#">
-            <li>item1</li>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <li> Home </li>
             </a>
             <a href="#">
-            <li>item2</li>
+                <i class="fa fa-bell" aria-hidden="true"></i>
+                <li> Para você </li>
             </a>
             <a href="#">
-            <li>item3</li>
+                <i class="fa fa-calendar" aria-hidden="true"></i>
+                <li> Meus agendamentos </li>
             </a>
             <a href="#">
-            <li>item4</li>
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <li> Meus pacotes </li>
             </a>
         </ul>
     </aside>
 
     <main class="main-content">
-        <div class="img">
-            <img src="./img/will.png" alt="Will">
-            <img src="./img/abner.png" alt="Abner">
+        <div class="agendamento">
+            <h4> Ver meus agendamentos </h4>
+            <i class="fa-solid fa-angle-right"></i>
         </div>
-        <nav class="comunicacao">
-            <ul class="icons">
-                <li>
-                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                </li>
-                <li>
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                </li>
-                <li>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                </li>
-            </ul>
-        </nav>
+        <section id="categorias">
+            <h3> Escolha a categoria </h3>
+            <div class="container">
+                <div class="categorias" id="cabelo">
+                    <img src="./img/icone-cabelo.svg">
+                    <a href="./pag-cabelo.html"> Cabelo </a>
+                </div>
+                <div class="categorias" id="barba">
+                    <img src="./img/icone-barba.svg">
+                    <a href="./pag-barba.html"> Barba </a>
+                </div>
+                <div class="categorias" id="sombrancelha">
+                    <img src="./img/icone-sombrancelha.svg">
+                    <a href="./pag-sombrancelha"> Sombrancelha </a>
+                </div>
+                <div class="categorias ignorar"></div>
+            </div>
+        </section>
+        <section id="comodidades">
+            <h3> Comodidades </h3>
+            <div class="comodidades">
+                <i class="fa fa-paw" aria-hidden="true"></i>
+                <p> Aceitamos pets! </p>
+                <i class="fa fa-wifi" aria-hidden="true"></i>
+                <p> Temos Wifi! </p>
+            </div>
+        </section>
     </main>
     
     <script src="script.js"></script>

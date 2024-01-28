@@ -4,5 +4,87 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: #44556f;
 }
+
+.menu-superior {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 100%;
+    position: fixed;
+}
+
+.menu {
+    width: 16px;
+    height: 16px;
+}
+
+.settings {
+    display: flex;
+    gap: 6px;
+}
+
+.settings i {
+    width: 16px;
+    height: 16px;
+}
+
+.menu-aside {
+    display: none;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.items-menu {
+    display: flex;
+    row-gap: 10px;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.agendamento {
+    width: 80%;
+    height: 15%;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    row-gap: 8px;
+}
+
+.categorias {
+    width: 55%;
+    height: 150px;
+    padding: 4px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.categorias img {
+    width: 90px;
+    height: 100px;
+}
+
+.categorias a {
+    display: flex;
+    justify-content: flex-end;
+}
+
