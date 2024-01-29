@@ -7,6 +7,11 @@ body {
     background-color: #44556f;
 }
 
+.header {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
 .menu-superior {
     display: flex;
     justify-content: space-evenly;
@@ -48,6 +53,7 @@ body {
 
 .main-content {
     width: 100%;
+
 }
 
 .agendamento {
@@ -67,7 +73,7 @@ body {
 }
 
 .categorias {
-    width: 55%;
+    width: 50%;
     height: 150px;
     padding: 4px;
     background-color: #ddd;
@@ -84,7 +90,30 @@ body {
 }
 
 .categorias a {
-    display: flex;
+
     justify-content: flex-end;
 }
 
+.ignorar {
+    width: 50%;
+    height: 150px;
+    padding: 4px;
+    background-color: transparent;
+    row-gap: 10px;
+}
+
+.comodidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.items-comodidade {
+    gap: 3px;
+    display: flex;
+    flex-direction: row;
+}
