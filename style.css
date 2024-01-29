@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
 
-    background-color: red;
+
     position: fixed;
 }
 
@@ -26,14 +26,18 @@ body {
     height: 30px;
     display: flex;
     justify-content: space-between;
-    background-color: hotpink;
-    padding: 15px;
+    align-items: center;
+    background-color: #ccc;
+    padding: 20px;
 
 }
 
 .menu {
     width: 16px;
-    height: 16px;
+    height: 30px;
+    margin-top: 10px;
+
+
 }
 
 .settings {
@@ -49,14 +53,30 @@ body {
 
 .menu-aside {
     display: none;
-    float: left;
-    width: 15%;
+
+
+    
+
+
+
+}
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .visivel {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 70vh;
     float: left;
-    width: 15%;
+    background-color: #ccc;
+
+
 }
 
 .perfil {
@@ -67,7 +87,12 @@ body {
 
 .items-menu {
     display: flex;
-    row-gap: 10px;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.links-menu {
+    font-size: 15px;
 }
 
 .main-content {

@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Will estilos</title>
 </head>
+
 <body>
 
     <header class="header">
@@ -28,30 +30,32 @@
             </div>
             <h4>Fabio</h4>
         </div>
-        <ul class="items-menu">
-            <a href="#">
-                <i class="fa fa-home" aria-hidden="true"></i>
-                <li> Home </li>
-            </a>
-            <a href="#">
-                <i class="fa fa-bell" aria-hidden="true"></i>
-                <li> Para você </li>
-            </a>
-            <a href="#">
-                <i class="fa fa-calendar" aria-hidden="true"></i>
-                <li> Meus agendamentos </li>
-            </a>
-            <a href="#">
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                <li> Meus pacotes </li>
-            </a>
-        </ul>
+        <nav class="menu-lateral">
+            <div class="items-menu">
+                <a href="#">
+                    <i class="fa-solid fa-house" style="color: #FFD43B;"></i>
+                    <p> Home </p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-bell" style="color: #FFD43B;"></i>
+                    <p> Para você </p>
+                </a>
+                <a href="#">
+                    <i class="fa-regular fa-calendar-days" style="color: #FFD43B;"></i>
+                    <p> Agendamentos </p>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping" style="color: #FFD43B;"></i>
+                    <p> Pacotes </p>
+                </a>
+            </div>
+        </nav>
     </aside>
 
     <main class="main-content">
         <div class="agendamento">
             <h2> Ver meus agendamentos </h2>
-            <i class="fa-solid fa-angle-right"></i>
+            <i class="fa-solid fa-angle-right" style="color: #FFD43B;"></i>
         </div>
         <section id="categorias">
             <h3> Escolha a categoria </h3>
@@ -76,17 +80,18 @@
             <div class="comodidades">
                 <h3> Comodidades </h3>
                 <div class="items-comodidade">
-                <i class="fa fa-paw" aria-hidden="true"></i>
-                <p> Aceitamos pets! </p>
+                    <i class="fa fa-paw" aria-hidden="true"></i>
+                    <p> Aceitamos pets! </p>
                 </div>
                 <div class="items-comodidade">
-                <i class="fa fa-wifi" aria-hidden="true"></i>
-                <p> Temos Wifi! </p>
+                    <i class="fa fa-wifi" aria-hidden="true"></i>
+                    <p> Temos Wifi! </p>
                 </div>
             </div>
         </section>
     </main>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
