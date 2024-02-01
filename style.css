@@ -54,7 +54,7 @@ body {
 
 .menu-lateral {
     width: 35%;
-    height: 240px;
+    height: 290px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -87,6 +87,39 @@ body {
 .items-content a::after {
     text-decoration: none;
     color:  #800080;
+}
+
+.troca-invisivel {
+    display: none;
+}
+
+.troca-visivel {
+    width: 200px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.troca-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-moon {
+    width: 18px;
+    height: 16px;
+    color: #ffb600;
+}
+
+.fa-sun {
+    width: 18px;
+    height: 16px;
+    color: #FFA500;
 }
 
 .main-content {

@@ -9,3 +9,15 @@ document.getElementById('openMenu').addEventListener('click', function() {
         aside.classList.add('menu-aside');
     }
 });
+
+document.getElementById('toggle-tema').addEventListener('click', () => {
+    let tema = document.getElementById('tema');
+
+    if(tema.classList.contains('troca-invisivel')) {
+        tema.classList.remove('troca-invisivel');
+        tema.classList.add('troca-visivel');
+    } else {
+        tema.classList.remove('troca-visivel');
+        tema.classList.add('troca-invisivel');
+    }
+});
