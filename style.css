@@ -4,40 +4,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins' sans-serif;
 }
 
 body {
     background-color: #44556f;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header {
     width: 100%;
-    height: 40px;
+    height: 60px;
     display: flex;
     align-items: center;
-
-
-    position: fixed;
+    background-color: #000;
 }
 
 .menu-superior {
     width: 100%;
-    height: 30px;
+    height: 20px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ccc;
-    padding: 20px;
-
 }
 
-.menu {
+.fa-bars {
     width: 16px;
-    height: 30px;
-    margin-top: 10px;
+    height: 16px;
+    cursor: pointer;
+    color: #fff;
+}
 
-
+.fa-cog {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    color: #fff;
 }
 
 .settings {
@@ -46,123 +48,169 @@ body {
     gap: 6px;
 }
 
-.settings i {
-    width: 16px;
-    height: 16px;
-}
-
 .menu-aside {
     display: none;
-
-
-    
-
-
-
 }
 
 .menu-lateral {
+    width: 35%;
+    height: 240px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-}
-
-.visivel {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 70%;
-    height: 70vh;
+    position: fixed;
     float: left;
-    background-color: #ccc;
-
-
-}
-
-.perfil {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+    background-color: #000;
 }
 
 .items-menu {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    row-gap: 50px;
+    row-gap: 10px;
 }
 
-.links-menu {
-    font-size: 15px;
+.items-content {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: row;
+}
+
+.items-content a {
+    text-decoration: none;
+    color: #0000FF;
+}
+
+.items-content a::after {
+    text-decoration: none;
+    color:  #800080;
 }
 
 .main-content {
     width: 100%;
-
-}
-
-.main-content h4 {
-    color: #fff;
-    margin-top: 15px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .agendamento {
-    width: 80%;
-    height: 15%;
-    padding: 10px;
-}
-
-.container {
+    width: 100%;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    background-color: rgba(30, 40, 60, 0.7);
+}
+
+.agendamento a {
+    text-decoration: none;
+    color: #0000FF;
+}
+
+.agendamento a::after {
+    text-decoration: none;
+    color: #800080;
+}
+
+.container {
+    width: 100%;
+    height: 50vh;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 8px;
-    row-gap: 8px;
 }
 
 .categorias {
-    width: 50%;
+    width: 40%;
     height: 150px;
-    padding: 4px;
-    background-color: #ddd;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    row-gap: 10px;
-}
-
-.categorias img {
-    width: 90px;
-    height: 100px;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #ccc;
 }
 
 .categorias a {
+    text-decoration: none;
+    color: #0000FF;
+}
 
-    justify-content: flex-end;
+.categorias a::after {
+    text-decoration: none;
+    color: #800080;
 }
 
 .ignorar {
-    width: 50%;
-    height: 150px;
+    width: 40%;
+}
+
+.categorias img {
+    width: 70px;
+    height: 80px;
+}
+
+.footer-content {
+    width: 100%;
+    height: 235px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    background-color: darkgray;
     padding: 4px;
-    background-color: transparent;
-    row-gap: 10px;
 }
 
 .comodidades {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 25px;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
 
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .items-comodidade {
-    gap: 3px;
     display: flex;
+    align-items: center;
     flex-direction: row;
+    gap: 4px;
+}
+
+.copright-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .menu-aside {
+        display: block;
+    }
+
+    .main-content {
+        width: 70%;
+        margin-left: 30%;
+        padding: 40px;
+    }
+
+    .categorias, .ignorar {
+        width: 48%;
+    }
 }
