@@ -103,3 +103,35 @@ sun.addEventListener('click', () => {
     comod1.classList.remove('dark');
     comod2.classList.remove('dark');
 });
+
+moon.addEventListener('click', () => {
+    header.classList.remove('dark');
+    menu.classList.remove('dark');
+    cog.classList.remove('dark');
+    aside.classList.remove('dark');
+    user.classList.remove('dark');
+    home.classList.remove('dark');
+    bell.classList.remove('dark');
+    date.classList.remove('dark');
+    cart.classList.remove('dark');
+    theme.classList.remove('dark');
+    moon.classList.remove('dark');
+    sun.classList.remove('dark');
+    angle.classList.remove('dark');
+    img1.classList.remove('dark');
+    img2.classList.remove('dark');
+    img3.classList.remove('dark');
+    config.classList.remove('dark');
+    perfil.classList.remove('dark');
+    casa.classList.remove('dark');
+    paravoce.classList.remove('dark');
+    agnd.classList.remove('dark');
+    package.classList.remove('dark');
+    troca.classList.remove('dark');
+    check.classList.remove('dark');
+    cabelo.classList.remove('dark');
+    barba.classList.remove('dark');
+    sombrancelha.classList.remove('dark');
+    comod1.classList.remove('dark');
+    comod2.classList.remove('dark');
+});
