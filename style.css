@@ -32,6 +32,10 @@ body {
     width: 16px;
     height: 16px;
     cursor: pointer;
+    color: #ffb600;
+}
+
+.fa-bars:hover {
     color: #fff;
 }
 
@@ -39,6 +43,10 @@ body {
     width: 16px;
     height: 16px;
     cursor: pointer;
+    color: #ffb600;
+}
+
+.fa-cog:hover {
     color: #fff;
 }
 
@@ -54,7 +62,7 @@ body {
 
 .menu-lateral {
     width: 35%;
-    height: 290px;
+    height: 345px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -84,6 +92,10 @@ body {
     color: #0000FF;
 }
 
+.items-content a:hover {
+    color: #3366FF;
+}
+
 .items-content a::after {
     text-decoration: none;
     color:  #800080;
@@ -94,7 +106,7 @@ body {
 }
 
 .troca-visivel {
-    width: 200px;
+    width: 180px;
     height: 110px;
     display: flex;
     justify-content: center;
@@ -116,10 +128,18 @@ body {
     color: #ffb600;
 }
 
+.fa-moon:hover {
+    color: #ffa500;
+}
+
 .fa-sun {
     width: 18px;
     height: 16px;
-    color: #FFA500;
+    color: #ffa500;
+}
+
+.fa-sun:hover {
+    color: #ffb600;
 }
 
 .main-content {
@@ -145,6 +165,10 @@ body {
 .agendamento a {
     text-decoration: none;
     color: #0000FF;
+}
+
+.agendamento a:hover {
+    color: #3366FF;
 }
 
 .agendamento a::after {
@@ -177,6 +201,10 @@ body {
 .categorias a {
     text-decoration: none;
     color: #0000FF;
+}
+
+.categorias a:hover {
+    color: #3366FF;
 }
 
 .categorias a::after {
@@ -230,6 +258,12 @@ body {
     flex-direction: column;
     row-gap: 6px;
     color: #fff;
+}
+
+/* Tema Dark */
+
+.dark {
+    color: hotpink;
 }
 
 @media (min-width: 768px) {
