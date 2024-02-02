@@ -260,10 +260,83 @@ body {
     color: #fff;
 }
 
-/* Tema Dark */
+/* Tema light */
+
+:root {
+    /* header */
+
+    --color-light-header: #ddd;
+    --color-light-icons: gray;
+
+    /* aside */
+
+    --color-light-aside: #ddd;
+    --color-light-link: #0074cc;
+    --color-light-link-hover: #0014cc;
+    --color-light-hover: darkgray;
+
+    /* main */ 
+
+    --color-light-agend: #bbbbbb;
+    --color-light-categ: #888888;
+    --color-light-img: #ccc;
+
+    /* footer */
+
+    --color-light-footer: #ddd;
+    --color-light-comod: #000;
+    --color-light-copyright: #000;
+}
 
 .dark {
-    color: hotpink;
+    .header {
+        color: var(--color-light-header);
+    }
+    .fa-bars, .fa-cog, .fa-moon, .fa-sun {
+        color: var(--color-light-icons);
+    }
+    .fa-bars:hover, .fa-cog:hover, .fa-moon:hover, .fa-sun:hover {
+        color: var(--color-light-hover);
+    }
+    .menu-lateral {
+        color: var(--color-light-aside);
+    }
+    .categorias a {
+        color: var(--color-light-link);
+    }
+    .categorias a:hover {
+        color: var(--color-light-link-hover);
+    }
+    .agendamento {
+        color: var(--color-light-agend);
+    }
+    .agendamento a {
+        color: var(--color-light-link);
+    }
+    .agendamento a:hover {
+        color: var(--color-light-link-hover);
+    }
+    .categorias {
+        color: var(--color-light-categ);
+    }
+    .categorias img {
+        color: var(--color-light-img);
+    }
+    .categorias a {
+        color: var(--color-light-link);
+    }
+    .categorias a:hover {
+        color: var(--color-light-link-hover);
+    }
+    .footer-content {
+        color: var(--color-light-footer);
+    }
+    .comodidades p {
+        color: var(--color-light-comod);
+    }
+    .copright-section {
+        color: var(--color-light-copyright);
+    }
 }
 
 @media (min-width: 768px) {
