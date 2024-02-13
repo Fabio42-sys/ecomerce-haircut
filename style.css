@@ -61,14 +61,20 @@ body {
 }
 
 .menu-lateral {
-    width: 35%;
-    height: 345px;
+    width: 25%;
+    height: 436px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: fixed;
     float: left;
     background-color: #000;
+}
+
+.logo {
+    width: 182px;
+    height: 136px;
+    margin-left: 36px;
 }
 
 .items-menu {
@@ -79,7 +85,9 @@ body {
 }
 
 .items-content {
-    height: 50px;
+    height: 40px;
+    width: 130px;
+    margin-left: 62px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,10 +152,16 @@ body {
 
 .main-content {
     width: 100%;
-    height: 60vh;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+}
+
+.imgs {
+    width: 100%;
+    height: 300px;
 }
 
 .agendamento {
@@ -178,19 +192,20 @@ body {
 
 .container {
     width: 100%;
-    height: 50vh;
+    height: 312px;
     margin-top: 12px;
     margin-bottom: 8px;
     display: flex;
-    justify-content: space-around;
+    gap: 33px;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
 .categorias {
     width: 40%;
-    height: 150px;
+    height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -222,10 +237,11 @@ body {
 }
 
 .footer-content {
-    width: 100%;
-    height: 235px;
+    width: 90%;
+    height: 200px;
     display: flex;
     margin-top: 10px;
+    margin-left: 62px;
     justify-content: center;
     background-color: darkgray;
     padding: 4px;
@@ -261,17 +277,14 @@ body {
 }
 
 @media (min-width: 768px) {
-    .menu-aside {
-        display: block;
-    }
-
     .main-content {
-        width: 70%;
-        margin-left: 30%;
-        padding: 40px;
+        width: 80%;
+        height: 116vh;
+        margin-left: 130px;
     }
 
     .categorias, .ignorar {
-        width: 48%;
+        width: 32%;
+        height: 134px;
     }
 }
