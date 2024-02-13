@@ -280,6 +280,7 @@ body {
 @media (min-width: 320px) {
     .menu-lateral {
         width: 50%;
+        height: 404px; 
     }
 
     .items-menu {
@@ -296,13 +297,24 @@ body {
         margin-left: 14px;
     }
 
+    .main-content {
+        width: 100%;
+        height: 522px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
     .imgs {
-        width: 70%;
+        width: 91%;
         height: 130px;
     }
 
     .agendamento {
         width: 70%;
+        margin-top: 20px;
     }
 
     .agendamento h2 {
@@ -313,7 +325,7 @@ body {
         width: 100%;
         height: 294px;
         display: flex;
-        margin-top: 120px;
+        margin-top: 0px;
         justify-content: center;
         background-color: darkgray;
         padding: 10px;
@@ -341,7 +353,7 @@ body {
     }
 
     .imgs {
-        width: 70%;
+        width: 89%;
         height: 130px;
     }
 
@@ -357,7 +369,7 @@ body {
         width: 100%;
         height: 294px;
         display: flex;
-        margin-top: 120px;
+        margin-top: 0px;
         justify-content: center;
         background-color: darkgray;
         padding: 10px;
@@ -367,7 +379,7 @@ body {
 @media (min-width: 425px) {
     .menu-lateral {
         width: 50%;
-        height: 400px;
+        height: 410px;
     }
 
     .items-menu {
@@ -376,7 +388,7 @@ body {
 
     .logo {
         width: 70%;
-        height: 100px;
+        height: 110px;
         margin-left: 32px;
     }
 
@@ -386,7 +398,7 @@ body {
     }
 
     .imgs {
-        width: 70%;
+        width: 88%;
         height: 130px;
     }
 
@@ -402,7 +414,7 @@ body {
         width: 100%;
         height: 294px;
         display: flex;
-        margin-top: 120px;
+        margin-top: 0px;
         justify-content: center;
         background-color: darkgray;
         padding: 10px;
@@ -411,7 +423,74 @@ body {
 
 @media (min-width: 768px) {
     .menu-lateral {
-        width: 50%;
+        width: 30%;
+        height: 416px;
+    }
+
+    .items-menu {
+        width: 100%;
+    }
+
+    .logo {
+        width: 70%;
+        height: 114px;
+        margin-left: 32px;
+    }
+
+    .items-content {
+        width: 70%;
+        margin-left: 32px;
+    }
+
+    .main-content {
+        width: 100%;
+        height: 638px;
+        margin-top: 34px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .imgs {
+        width: 84%;
+        height: 170px;
+    }
+
+    .agendamento {
+        width: 70%;
+    }
+
+    .agendamento h2 {
+        font-size: 20px;
+    }
+
+    .container {
+        height: 385px;
+    }
+
+    .categorias {
+        height: 170px;
+    }
+
+    .footer-content {
+        width: 100%;
+        height: 180px;
+        display: flex;
+        margin-top: 0px;
+        justify-content: center;
+        background-color: darkgray;
+        padding: 10px;
+    }
+
+    .content {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 1024px) {
+    .menu-lateral {
+        width: 26%;
         height: 400px;
     }
 
@@ -432,7 +511,7 @@ body {
 
     .main-content {
         width: 100%;
-        height: 585px;
+        height: 740px;
         margin-top: 34px;
         margin-bottom: 10px;
         display: flex;
@@ -441,8 +520,8 @@ body {
     }
 
     .imgs {
-        width: 70%;
-        height: 130px;
+        width: 83%;
+        height: 222px;
     }
 
     .agendamento {
