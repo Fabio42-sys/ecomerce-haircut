@@ -153,9 +153,10 @@ body {
 .main-content {
     width: 100%;
     height: 400px;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -237,14 +238,14 @@ body {
 }
 
 .footer-content {
-    width: 90%;
+    width: 100%;
     height: 200px;
     display: flex;
     margin-top: 10px;
-    margin-left: 62px;
+    /* margin-left: 62px; */
     justify-content: center;
     background-color: darkgray;
-    padding: 4px;
+    padding: 10px;
 }
 
 .comodidades {
@@ -276,15 +277,21 @@ body {
     color: #fff;
 }
 
-@media (min-width: 768px) {
-    .main-content {
-        width: 80%;
-        height: 116vh;
-        margin-left: 130px;
+@media (max-width: 320px) {
+    .imgs {
+        width: 70%;
+        height: 130px;
     }
-
-    .categorias, .ignorar {
-        width: 32%;
-        height: 134px;
+    .agendamento h2 {
+        font-size: 20px;
+    }
+    .footer-content {
+        width: 100%;
+        height: 294px;
+        display: flex;
+        margin-top: 120px;
+        justify-content: center;
+        background-color: darkgray;
+        padding: 10px;
     }
 }
