@@ -278,6 +278,20 @@ body {
 }
 
 @media (max-width: 320px) {
+    .menu-lateral {
+        width: 50%;
+    }
+    .items-menu {
+        width: 100%;
+    }
+    .logo {
+        width: 70%;
+        height: 100px;
+        margin-left: 25px;
+    }
+    .items-content {
+        margin-left: 14px;
+    }
     .imgs {
         width: 70%;
         height: 130px;
