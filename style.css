@@ -309,3 +309,37 @@ body {
         padding: 10px;
     }
 }
+
+@media (max-width: 375px) {
+    .menu-lateral {
+        width: 50%;
+        height: 400px;
+    }
+    .items-menu {
+        width: 100%;
+    }
+    .logo {
+        width: 70%;
+        height: 100px;
+        margin-left: 28px;
+    }
+    .items-content {
+        margin-left: 28px;
+    }
+    .imgs {
+        width: 70%;
+        height: 130px;
+    }
+    .agendamento h2 {
+        font-size: 20px;
+    }
+    .footer-content {
+        width: 100%;
+        height: 294px;
+        display: flex;
+        margin-top: 120px;
+        justify-content: center;
+        background-color: darkgray;
+        padding: 10px;
+    }
+}
