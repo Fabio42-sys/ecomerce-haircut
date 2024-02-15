@@ -75,6 +75,7 @@ body {
     width: 182px;
     height: 136px;
     margin-left: 36px;
+    border-radius: 20%;
 }
 
 .items-menu {
@@ -107,4 +108,158 @@ body {
 .items-content a::after {
     text-decoration: none;
     color: #800080;
+}
+
+.main {
+    margin-bottom: 20px;
+}
+
+.servicos {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.servicos h1 {
+    color: #3366FF;
+}
+
+.barberInfos {
+    width: 100%;
+    height: 800px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+.infos {
+    width: 50%;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    padding: 8px;
+}
+
+.pic-name {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6px;
+    row-gap: 4px;
+}
+
+.barberPic {
+    width: 100px;
+    height: 100px;
+    border-radius: 15%;
+}
+
+.pic-name p {
+    font-size: 18px;
+    color: #000;
+}
+
+.ver-mais {
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 4px;
+    background-color: rgba(30, 40, 60, 0.7);
+    color: #fff;
+    cursor: pointer;
+}
+
+.ver-mais:hover {
+    background-color: #4a5c77;
+}
+
+.detalhes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.preco {
+    width: 100%;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.preco a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #888;
+}
+
+.preco a:hover {
+    color: blue;
+}
+
+.more-info {
+    margin-top: 16px;
+    text-decoration: none;
+    color: #888;
+}
+
+.more-info:hover {
+    color: blue;
+}
+
+
+.footer-content {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 10px;
+    /* margin-left: 62px; */
+    justify-content: center;
+    background-color: darkgray;
+    padding: 10px;
+}
+
+.comodidades {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.items-comodidade {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.copright-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    color: #fff;
 }

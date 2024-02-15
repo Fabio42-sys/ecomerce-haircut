@@ -75,6 +75,7 @@ body {
     width: 182px;
     height: 136px;
     margin-left: 36px;
+    border-radius: 20%;
 }
 
 .items-menu {

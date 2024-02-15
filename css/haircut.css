@@ -75,6 +75,7 @@ body {
     width: 182px;
     height: 136px;
     margin-left: 36px;
+    border-radius: 20%;
 }
 
 .items-menu {
@@ -107,6 +108,10 @@ body {
 .items-content a::after {
     text-decoration: none;
     color: #800080;
+}
+
+.main {
+    margin-bottom: 20px;
 }
 
 .servicos {
@@ -206,4 +211,54 @@ body {
 
 .preco a:hover {
     color: blue;
+}
+
+.more-info {
+    margin-top: 16px;
+    text-decoration: none;
+    color: #888;
+}
+
+.more-info:hover {
+    color: blue;
+}
+
+.footer-content {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 10px;
+    /* margin-left: 62px; */
+    justify-content: center;
+    background-color: darkgray;
+    padding: 10px;
+}
+
+.comodidades {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 15px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.items-comodidade {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.copright-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    color: #fff;
 }
