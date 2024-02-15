@@ -140,7 +140,7 @@ body {
 
 .infos {
     width: 50%;
-    height: 760px;
+    height: 586px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,44 +222,4 @@ body {
 
 .more-info:hover {
     color: blue;
-}
-
-.footer-content {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    margin-top: 10px;
-    /* margin-left: 62px; */
-    justify-content: center;
-    background-color: darkgray;
-    padding: 10px;
-}
-
-.comodidades {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 15px;
-}
-
-.content {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.items-comodidade {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 4px;
-}
-
-.copright-section {
-    display: flex;
-    flex-direction: column;
-    row-gap: 6px;
-    color: #fff;
 }
