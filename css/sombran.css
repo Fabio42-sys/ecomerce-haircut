@@ -183,8 +183,17 @@ body {
     cursor: pointer;
 }
 
+.ver-mais a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .ver-mais:hover {
     background-color: #4a5c77;
+}
+
+.ver-mais a:hover {
+    color: #3366FF;
 }
 
 .detalhes {
