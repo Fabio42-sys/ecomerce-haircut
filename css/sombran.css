@@ -134,7 +134,7 @@ body {
     padding: 20px;
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 
@@ -147,12 +147,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #ddd;
-    padding: 8px;
+    padding: 16px;
 }
 
 .pic-name {
     width: 100%;
-    height: 190px;
+    height: 216px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,6 +170,11 @@ body {
 .pic-name p {
     font-size: 18px;
     color: #000;
+}
+
+.star-sec {
+    color: #ffb600;
+    font-size: 20px;
 }
 
 .ver-mais {

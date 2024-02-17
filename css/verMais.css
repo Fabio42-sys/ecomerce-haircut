@@ -110,7 +110,123 @@ body {
     color: #800080;
 }
 
+.main {
+    margin-bottom: 20px;
+}
 
+.servicos {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.servicos h1 {
+    color: #3366FF;
+}
+
+.barberSet {
+    width: 100%;
+    height: 562px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.barberInfo {
+    width: 50%;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    padding: 16px;
+}
+
+.barberInfo h2 {
+    margin-bottom: 12px;
+}
+
+.barber {
+    width: 100%;
+    height: 216px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6px;
+    row-gap: 4px;
+}
+
+.barberPic {
+    width: 100px;
+    height: 100px;
+    border-radius: 15%;
+}
+
+.pic-name p {
+    font-size: 18px;
+    color: #000;
+}
+
+.star-sec {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ffb600;
+    font-size: 20px;
+}
+
+.star-sec p {
+    color: #fff;
+}
+
+.rating-details {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 20px;
+    background-color: #ccc;
+    border-radius: 20px;
+}
+
+.sec-rating {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.avaliacao {
+    height: 80%;
+    row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.rating {
+    height: 20%;
+    background-color: #44556f;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #000;
+    border-radius: 30px;
+    color: #ffb600;
+}
+
+.rating p {
+    color: #fff;
+    font-size: 16px;
+}
 
 .footer-content {
     width: 100%;
