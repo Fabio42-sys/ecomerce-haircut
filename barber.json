@@ -1,0 +1,26 @@
+{
+    "barbers": {
+        "barber": {
+            "name": "will",
+            "rating": 5,
+            "specialty": "cabelo infantil"
+        },
+        "barber2": {
+            "name": "abner",
+            "rating": 5,
+            "specialty": "desenhos"
+        }
+    },
+
+    "login": {
+        "will": {
+            "email": "email@example.com",
+            "password": "123456"
+        },
+
+        "abner": {
+            "email": "email@example.com",
+            "password": "654321"
+        }
+    }
+}
