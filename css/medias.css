@@ -660,7 +660,7 @@
 
     .pic-name {
         width: 100%;
-        height: 190px;
+        height: 220px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -849,10 +849,10 @@
     .barberInfos {
         width: 100%;
         height: 656px;
-        padding: 10px;
+        padding: 60px;
         display: flex;
         align-items: center;
-        gap: 2px;
+        gap: 100px;
     }
 
     .infos {
@@ -890,10 +890,10 @@
     .barberSet {
         width: 100%;
         height: 620px;
-        padding: 20px;
+        padding: 60px;
         display: flex;
         align-items: center;
-        gap: 2px;
+        gap: 100px; 
     }
 
     .barberInfo {
@@ -905,6 +905,7 @@
         align-items: center;
         background-color: #ddd;
         padding: 6px;
+        border-radius: 20px;
     }
 
     .barberInfo h2 {

@@ -184,6 +184,7 @@ body {
     padding: 4px;
     background-color: rgba(30, 40, 60, 0.7);
     cursor: pointer;
+    margin-bottom: 8px;
 }
 
 .ver-mais a {
