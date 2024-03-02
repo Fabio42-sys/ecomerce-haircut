@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./frontend/css/login.css">
+    <link rel="stylesheet" href="./frontend/css/medias.css">
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-auth.js"></script>
+    <title> Pagina de login moderna </title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Crie sua conta</h1>
+                <span>ou use seu email para se registrar</span>
+
+                <div class="input-flex">
+                    <input type="text" placeholder="Nome">
+                    <img class="icones" src="./frontend/img/icone-user.svg">
+                </div>
+
+                <div class="input-flex">
+                    <input type="email" placeholder="Email">
+                    <img class="icones" src="./frontend/img/icone-email.svg">
+                </div>
+
+                <div class="input-flex">
+                    <input type="password" placeholder="Senha" id="passwordCadastro">
+                    <img class="cadeado" src="./frontend/img/cadeado-fechado.svg" id="imgCadastro">
+                </div>
+
+                <input class="input" type="button" value="Cadastrar">
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Entre na sua conta</h1>
+                <span>ou use suas informações para entrar</span>
+                <div class="input-flex">
+                    <input type="email" placeholder="Email" id="input-login">
+                    <img class="icones" src="./frontend/img/icone-email.svg" alt="email">
+                </div>
+                <div class="input-flex">
+                    <input type="password" placeholder="Senha" id="passwordLogin">
+                    <img class="cadeado" src="./frontend/img/cadeado-fechado.svg" id="imgLogin">
+                </div>
+                <input class="input" type="button" value="Logar" id="enter">
+                <span id="span-login"></span>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bem vindo de volta!</h1>
+                    <p>Entre com suas informações para utilizar tudo do site</p>
+                    <button class="hidden" id="login">Logar</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Olá, Amigo!</h1>
+                    <p>Coloque sua informações para utilizar tudo do site</p>
+                    <button id="register"> Cadastrar </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./frontend/js/login.js"></script>
+    <script type="module" src="./backend/init-firebase.js"></script>
+
+</body>
+
+</html>
