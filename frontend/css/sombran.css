@@ -175,6 +175,7 @@ body {
 .star-sec {
     color: #ffb600;
     font-size: 20px;
+    cursor: default;
 }
 
 .ver-mais {
